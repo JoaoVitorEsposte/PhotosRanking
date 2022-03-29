@@ -1,0 +1,165 @@
+header {
+	background-color: #F9F9F9;
+}
+
+.caixa-cabecalho {
+	position: relative;
+	width: 990px;
+	height: 180px;
+	margin: 0px auto 0px;
+	box-sizing: border-box;
+	background-color: #F9F9F9;
+}
+
+.caixa-cabecalho h1, .caixa-cabecalho h2 {
+	position: absolute;
+	left: 10px;
+}
+
+.caixa-cabecalho h1 {
+	top: 30px;
+	font-size: 2.5em;
+}
+
+.caixa-cabecalho h1:before {
+	content: "[ ";
+}
+
+.caixa-cabecalho h1:after {
+	content: " ]";
+}
+
+.caixa-cabecalho h2 {
+	top: 75px;
+	font-size: 1.8em;
+}
+
+em {
+	font-style: italic;
+}
+
+nav {
+	position: absolute;
+	right: 10px;
+	top:60px;
+}
+
+nav li {
+	display: inline-block;
+	margin-left: 1em;
+}
+
+nav a {
+	text-decoration: none;
+	color: #000000;
+	font-size: 1.3em;
+	transition: 0.2s all;
+}
+
+nav a:hover {
+	color: #8B0000;
+}
+
+main {
+	background: linear-gradient(#F9F9F9, #444444);
+	padding-bottom: 30px;
+}
+
+.caixa-conteudo-principal {
+	position: relative;
+	width: 990px;
+	height: 1000px;
+	margin: 0 auto;
+}
+
+.lista-fotos {
+	position: absolute;
+	margin-top: 50px;
+}
+
+.lista-fotos a {
+	text-decoration: none;
+	color: #000000;
+	font-size: 1.3em;
+	transition: 0.2s all;
+}
+
+.lista-fotos a:hover {
+	color: #8B0000;
+}
+
+.lista-fotos li {
+	width: 25%;
+	height: 290px;
+	box-sizing: border-box;
+	display: inline-block;
+	vertical-align: top;
+	border: 3px solid #000000;
+	border-radius: 20px;
+	margin-right: 8%;
+	padding: 15px;
+	position: relative;
+}
+
+.lista-fotos li:nth-child(2n) {
+	border-color: #8B0000;
+}
+
+.lista-fotos li h3 {
+	font-size: 1.2em;
+	font-weight: bold;
+	text-align: center;
+}
+
+.lista-fotos li img {
+	position: absolute;
+	width: 25%;
+	top: 100px;
+	left: 90px;
+}
+
+footer {
+	background: #000000;
+	padding: 30px;
+}
+
+.caixa-footer {
+	position: relative;
+	width: 990px;
+	height: 100px;
+	color: white;
+	box-sizing: border-box;
+	margin: 10px auto;
+}
+
+.caixa-footer .copy {
+	position: absolute;
+	right: 0px;
+	top: 25%;
+}
+
+.caixa-footer h1 {
+	font-size: 1.3em;
+}
+
+.caixa-footer h1:before {
+	content: "[ ";
+}
+
+.caixa-footer h1:after {
+	content: " ]";
+}
+
+.caixa-footer h2 {
+	margin-top: 5px;
+	font-size: 1.1em;
+}
+
+main .pergunta {
+	margin-bottom: 30px;
+}
+
+main .pergunta h3 {
+	font-size: 1.5em;
+	margin-bottom: 10px;
+}
