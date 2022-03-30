@@ -1,5 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@500&display=swap');
+
 header {
 	background-color: #F9F9F9;
+}
+
+body {
+	font-family: 'Zilla Slab', serif;
 }
 
 .caixa-cabecalho {
@@ -19,6 +25,7 @@ header {
 .caixa-cabecalho h1 {
 	top: 30px;
 	font-size: 2.5em;
+	font-family: "Zilla Slab";
 }
 
 .caixa-cabecalho h1:before {
@@ -54,6 +61,7 @@ nav a {
 	color: #000000;
 	font-size: 1.3em;
 	transition: 0.2s all;
+	font-weight: bold;
 }
 
 nav a:hover {
@@ -68,7 +76,7 @@ main {
 .caixa-conteudo-principal {
 	position: relative;
 	width: 990px;
-	height: 1000px;
+	height: 539px;
 	margin: 0 auto;
 }
 
@@ -119,6 +127,7 @@ main {
 }
 
 footer {
+	clear: left;
 	background: #000000;
 	padding: 30px;
 }
@@ -155,11 +164,86 @@ footer {
 	font-size: 1.1em;
 }
 
+.caixa-perguntas {
+	position: relative;
+	margin: 0px auto;
+	box-sizing: border-box;
+	width: 990px;
+	height: 539px;
+	padding: 40px;
+}
+
 main .pergunta {
 	margin-bottom: 30px;
+	position: absolute;
+	left: 30px;
+
 }
 
 main .pergunta h3 {
-	font-size: 1.5em;
+	font-size: 1.9em;
 	margin-bottom: 10px;
+}
+
+main .pergunta p {
+	font-size: 1.2em;
+}
+
+main .caixa-quem-somos {
+	position: relative;
+	width: 690px;
+	height: 539px;
+	margin: 0 auto;
+}
+
+main .quem-somos {
+	position: absolute;
+	left: 50px;
+	text-align: center;
+	padding: 40px;
+}
+
+.quem-somos h2 {
+	font-size: 1.9em;
+	margin-bottom: 1em;
+}
+
+.quem-somos p {
+	font-size: 1.4em;
+	line-height: 1.16em;
+}
+
+.caixa-imagem {
+	position: relative;
+	width: 990px;
+	height: auto;
+	margin: 0 auto;
+	padding: 60px;
+}
+
+.caixa-imagem h2 {
+	font-size: 2em;
+	text-align: center;
+	margin-bottom: 1.9em;
+	font-weight: bold;
+}
+
+.caixa-imagem img {
+	margin: 0 30px 60px 0;
+	float: left;
+}
+
+.foto-grande-demais {
+	width: 80%;
+}
+
+.caixa-imagem p {
+	font-size: 1.4em;
+	margin-bottom: 40px;
+	text-align: left;
+	line-height: 1.3em;
+}
+
+.auxiliar-gradient {
+	clear: left;
 }
