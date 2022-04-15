@@ -13,10 +13,6 @@ const tamanhoListaPrincipal = listaPrincipal.childElementCount;
 //Define variável para auxiliar na seleção de fotos a serem exibidas;
 let categoriaAnterior = "todas";
 
-//let objFotos = new Array(listaFotos.length);
-
-//let fotosPontuacoes = new MATRIZ ();
-
 //Reseta a listaPrincipal com todos os elementos originais para possibilitar a seleção de categoria das fotos;
 function completaListaPrincipal () {
 	for (let i = 0; i < listaFotos.length; i++) {
@@ -57,23 +53,3 @@ for (let i = 0; i < listaOpcoes.length; i++){
 		selecionaCategoriaFoto(opcaoAtual.id);
 	}
 }
-
-/*
-//Criação da classe foto;
-class foto {
-	//Definição de métodos
-	constructor (id, pontuacao) {
-		this.id = id;
-		this.pontuacao = pontuacao;
-	}
-
-	SetPontuacao (pontuacao) {
-		this.pontuacao = pontuacao;
-	}
-}
-
-//Cria os objetos e os guarda na lista "objFotos";
-for (let i = 0; i < listaFotos.length; i++){
-	objFotos[i] = new foto(i, 0);
-}
-*/
