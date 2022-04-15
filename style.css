@@ -100,20 +100,24 @@ main {
 	left: 15%;
 }
 
-.lista-selecao-categoria .opcao {
+.lista-selecao-categoria .item {
 	display: inline-block;
 	margin-right: 1.4em;
 }
 
-.lista-selecao-categoria .opcao a {
+.lista-selecao-categoria .item button {
 	text-decoration: none;
 	color: black;
 	font-size: 1.222em;
 	transition: 0.2s all;
 	font-weight: bold;
+	border-width: 0px;
+	border-radius: 50px;
+	background-color: #D7D7D7;
+	cursor: pointer;
 }
 
-.lista-selecao-categoria .opcao a:hover {
+.lista-selecao-categoria .item button:hover {
 	color: #8B0000;
 }
 
