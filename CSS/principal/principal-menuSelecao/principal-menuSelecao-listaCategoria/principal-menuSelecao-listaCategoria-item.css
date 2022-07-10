@@ -1,0 +1,20 @@
+.principal__menuSelecao__listaCategoria__item {
+	display: inline-block;
+	margin-right: 1.4em;
+}
+
+.principal__menuSelecao__listaCategoria__item button {
+	text-decoration: none;
+	color: black;
+	font-size: 1.222em;
+	transition: 0.2s all;
+	font-weight: bold;
+	border-width: 0px;
+	border-radius: 50px;
+	background-color: #D7D7D7;
+	cursor: pointer;
+}
+
+.principal__menuSelecao__listaCategoria__item button:hover {
+	color: #8B0000;
+}

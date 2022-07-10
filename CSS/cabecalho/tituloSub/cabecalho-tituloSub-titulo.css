@@ -1,0 +1,12 @@
+.cabecalho__tituloSub__titulo {
+	font-family: 'Zilla Slab', serif;
+	font-size: 2.5em;
+}
+
+.cabecalho__tituloSub__titulo:before {
+	content: "[ ";
+}
+
+.cabecalho__tituloSub__titulo:after {
+	content: " ]";
+}

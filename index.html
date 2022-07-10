@@ -1,70 +1,156 @@
 <!DOCTYPE html>
 <html>
 <head lang="pt-br">
+	<meta charset="utf-8">
 	<title>PhotosRanking</title>
 	<link rel="stylesheet" type="text/css" href=".\CSS\reset.css">
 	<link rel="stylesheet" type="text/css" href=".\CSS\style.css">
-	<meta charset="utf-8">
+
+	<!--Fonte Zilla Slab-->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@500&display=swap" rel="stylesheet">
+
+	<!--CSS de pabecalho-->
+	<link href="./CSS/cabecalho.css" rel="stylesheet">
+	<link href="./CSS/cabecalho/cabecalho-menu.css" rel="stylesheet">
+	<link href="./CSS/cabecalho/tituloSub/cabecalho-tituloSub-titulo.css" rel="stylesheet">
+	<link href="./CSS/cabecalho/tituloSub/cabecalho-tituloSub-subtitulo.css" rel="stylesheet">
+	<link href="./CSS/cabecalho/menu/cabecalho-menu-lista.css" rel="stylesheet">
+	<link href="./CSS/cabecalho/menu/cabecalho-menu-lista-item.css" rel="stylesheet">
+	<link href="./CSS/cabecalho/menu/cabecalho-menu-lista-item-link.css" rel="stylesheet">
+
+	<!--CSS de principal-->
+	<link href="./css/principal.css" rel="stylesheet">
+		<!--CSS de menuSelecao-->
+		<link href="./css/principal/principal-menuSelecao.css" rel="stylesheet">
+		<link href="./css/principal/principal-menuSelecao/principal-menuSelecao-titulo.css" rel="stylesheet">
+		<link href="./css/principal/principal-menuSelecao/principal-menuSelecao-listaCategoria.css" rel="stylesheet">
+		<link href="./css/principal/principal-menuSelecao/principal-menuSelecao-listaCategoria/principal-menuSelecao-listaCategoria-item.css" rel="stylesheet">
+
+		<!--CSS de caixaConteudo-->
+		<link href="./css/principal/principal-caixaConteudo.css" rel="stylesheet">
+		<link href="./css/principal/principal-caixaConteudo-listaFotos.css" rel="stylesheet">
+		<link href="./css/principal/principal-caixaConteudo-listaFotos-item.css" rel="stylesheet">
+		<link href="./css/principal/principal-caixaConteudo-listaFotos-item/principal__caixaConteudo__listaFotos__item__titulo.css" rel="stylesheet">
+		<link href="./css/principal/principal-caixaConteudo-listaFotos-item/principal__caixaConteudo__listaFotos__item__imagem.css" rel="stylesheet">
+
 </head>
 <body>
-	<header>
-		<section class="caixa-cabecalho">
-			<h1>PhotosRanking</h1>
-			<h2>A Site by<br><em>João Vitor Esposte Campos</em></h2>
-
-			<nav>
-				<ul>
-					<li><a href=".\index.html">Página Principal</a></li>
-					<li><a href=".\HTMLMenuPrincipal\quem-somos.html">Quem Somos</a></li>
-					<li><a href=".\HTMLMenuPrincipal\perguntas-frequentes.html">Perguntas Frequentes</a></li>
-					<li><a href=".\HTMLMenuPrincipal\envie-sugestao.html">Envie-nos uma sugestão</a></li>
-					<li><a href=".\HTMLMenuPrincipal\ranking-fotos.html">Ranking de Fotos</a></li>
-				</ul>
-			</nav>
+	<header class="cabecalho">
+		<section class="cabecalho__tituloSub">
+			<h1 class="cabecalho__tituloSub__titulo">PhotosRanking</h1>
+			<h2 class="cabecalho__tituloSub__subtitulo">A Site by<br><em>João Vitor Esposte Campos</em></h2>
 		</section>
+
+		<nav class="cabecalho__menu">
+			<ul class="cabecalho__menu__lista">
+				<li class="cabecalho__menu__lista__item">
+					<a class="cabecalho__menu__lista__item__link" href=".\index.html">
+						Página Principal
+					</a>
+				</li>
+				<li class="cabecalho__menu__lista__item">
+					<a class="cabecalho__menu__lista__item__link" href=".\HTMLMenuPrincipal\quem-somos.html">
+						Quem Somos
+					</a>
+				</li>
+				<li class="cabecalho__menu__lista__item">
+					<a class="cabecalho__menu__lista__item__link" href=".\HTMLMenuPrincipal\perguntas-frequentes.html">
+						Perguntas Frequentes
+					</a>
+				</li>
+				<li class="cabecalho__menu__lista__item">
+					<a class="cabecalho__menu__lista__item__link" href=".\HTMLMenuPrincipal\envie-sugestao.html">
+						Envie-nos uma sugestão
+					</a>
+				</li>
+				<li class="cabecalho__menu__lista__item">
+					<a class="cabecalho__menu__lista__item__link" href=".\HTMLMenuPrincipal\ranking-fotos.html">
+						Ranking de Fotos
+					</a>
+				</li>
+			</ul>
+		</nav>
 	</header>
 
-	<main>
-		<section class="menu-selecao">
-			<h3>Selecione a categoria de fotografia desejada</h3>
-			<ul class="lista-selecao-categoria">
-				<li class="item">
+	<main class="principal">
+		<section class="principal__menuSelecao">
+			<h3 class="principal__menuSelecao__titulo">Selecione a categoria de fotografia desejada</h3>
+			<ul class="principal__menuSelecao__listaCategoria">
+				<li class="principal__menuSelecao__listaCategoria__item">
 					<button class="opcao" id="todas">Todas as Categorias</button>
 				</li>
-				<li class="item">
+				<li class="principal__menuSelecao__listaCategoria__item">
 					<button class="opcao" id="planta">Somente imagens de plantas</a>
 				</li>
-				<li class="item">
+				<li class="principal__menuSelecao__listaCategoria__item">
 					<button class="opcao" id="objeto">Somente imagens de objetos</a>
 				</li>
 			</ul>
 		</section>
 
-		<section class="caixa-conteudo-principal">
-			<ul class="lista-fotos">
-				<li class="fotos planta">
-					<h3><a href=".\HTMLFotos\foto01.html">Uma planta à luz do poste durante a noite</a></h3>
-					<a href=".\HTMLFotos\foto01.html"><img class="imgDemo" src=".\ImgFotos\foto01.jpeg"></a>
+		<section class="principal__caixaConteudo">
+			<ul class="principal__caixaConteudo__listaFotos">
+				<li class="fotos planta principal__caixaConteudo__listaFotos__item">
+					<h3 class="principal__caixaConteudo__listaFotos__item__titulo">
+						<a href=".\HTMLFotos\foto01.html">
+							Uma planta à luz do poste durante a noite
+						</a>
+					</h3>
+					<a href=".\HTMLFotos\foto01.html">
+						<img class="principal__caixaConteudo__listaFotos__item__imagem" src=".\ImgFotos\foto01.jpeg">
+					</a>
 				</li>
-				<li class="fotos planta">
-					<h3><a href=".\HTMLFotos\foto02.html">Plantas entre o poste e a câmera</a></h3>
-					<a href=".\HTMLFotos\foto02.html"><img class="imgDemo" src=".\ImgFotos\foto02.jpeg"></a>
+				<li class="fotos planta principal__caixaConteudo__listaFotos__item">
+					<h3 class="principal__caixaConteudo__listaFotos__item__titulo">
+						<a href=".\HTMLFotos\foto02.html">
+							Plantas entre o poste e a câmera
+						</a>
+					</h3>
+					<a href=".\HTMLFotos\foto02.html">
+						<img class="principal__caixaConteudo__listaFotos__item__imagem" src=".\ImgFotos\foto02.jpeg">
+					</a>
 				</li>
-				<li class="fotos objeto">
-					<h3><a href=".\HTMLFotos\foto03.html">Um catavento parado à noite</a></h3>
-					<a href=".\HTMLFotos\foto03.html"><img class="imgDemo" src=".\ImgFotos\foto03.jpeg"></a>
+				<li class="fotos objeto principal__caixaConteudo__listaFotos__item">
+					<h3 class="principal__caixaConteudo__listaFotos__item__titulo">
+						<a href=".\HTMLFotos\foto03.html">
+							Um catavento parado à noite
+						</a>
+					</h3>
+					<a href=".\HTMLFotos\foto03.html">
+						<img class="principal__caixaConteudo__listaFotos__item__imagem" src=".\ImgFotos\foto03.jpeg">
+					</a>
 				</li>
-				<li class="fotos objeto">
-					<h3><a href=".\HTMLFotos\foto04.html">Mouse Deathadder da Razer</a></h3>
-					<a href=".\HTMLFotos\foto04.html"><img class="imgDemo" src=".\ImgFotos\foto04.jpeg"></a>
+				<li class="fotos objeto principal__caixaConteudo__listaFotos__item">
+					<h3 class="principal__caixaConteudo__listaFotos__item__titulo">
+						<a href=".\HTMLFotos\foto04.html">
+							Mouse Deathadder da Razer
+						</a>
+					</h3>
+					<a href=".\HTMLFotos\foto04.html">
+						<img class="principal__caixaConteudo__listaFotos__item__imagem" src=".\ImgFotos\foto04.jpeg">
+					</a>
 				</li>
-				<li class="fotos objeto">
-					<h3><a href=".\HTMLFotos\foto05.html">Teclado retroiluminado</a></h3>
-					<a href=".\HTMLFotos\foto05.html"><img class="imgDemo" src=".\ImgFotos\foto05.jpeg"></a>
+				<li class="fotos objeto principal__caixaConteudo__listaFotos__item">
+					<h3 class="principal__caixaConteudo__listaFotos__item__titulo">
+						<a href=".\HTMLFotos\foto05.html">
+							Teclado retroiluminado
+						</a>
+					</h3>
+					<a href=".\HTMLFotos\foto05.html">
+						<img class="principal__caixaConteudo__listaFotos__item__imagem" src=".\ImgFotos\foto05.jpeg">
+					</a>
 				</li>
-				<li class="fotos objeto">
-					<h3><a href=".\HTMLFotos\foto06.html">Um abajur de metal com arte de flores</a></h3>
-					<a href=".\HTMLFotos\foto06.html"><img class="imgDemo" src=".\ImgFotos\foto06.jpeg"></a>
+				<li class="fotos objeto principal__caixaConteudo__listaFotos__item">
+					<h3 class="principal__caixaConteudo__listaFotos__item__titulo">
+						<a href=".\HTMLFotos\foto06.html">
+							Um abajur de metal com arte de flores
+						</a>
+					</h3>
+					<a href=".\HTMLFotos\foto06.html">
+						<img class="principal__caixaConteudo__listaFotos__item__imagem" src=".\ImgFotos\foto06.jpeg">
+					</a>
 				</li>
 			</ul>
 		</section>

@@ -1,0 +1,11 @@
+.cabecalho__menu__lista__item__link {
+	color: #000000;
+	font-size: 1.3em;
+	font-weight: bold;
+	text-decoration: none;
+	transition: 0.2s all;
+}
+
+.cabecalho__menu__lista__item__link:hover {
+	color: #8B0000;
+}

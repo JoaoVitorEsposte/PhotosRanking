@@ -1,0 +1,10 @@
+.principal__caixaConteudo__listaFotos__item a {
+    text-decoration: none;
+	color: #000000;
+	font-size: 1.3em;
+	transition: 0.2s all;
+}
+
+.principal__caixaConteudo__listaFotos__item a:hover {
+    color: #8B0000;
+}

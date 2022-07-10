@@ -1,0 +1,7 @@
+.principal__caixaConteudo__listaFotos__item__imagem {
+	border-radius: 10px;
+	position: absolute;
+	top: 100px;
+	left: 90px;
+	width: 25%;
+}

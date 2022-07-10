@@ -1,137 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@500&display=swap');
 
-header {
-	background-color: #F9F9F9;
-}
-
 body {
 	font-family: 'Zilla Slab', serif;
 }
 
-.caixa-cabecalho {
-	position: relative;
-	width: 990px;
-	height: 180px;
-	margin: 0px auto 0px;
-	box-sizing: border-box;
-	background-color: #F9F9F9;
-}
-
-.caixa-cabecalho h1, .caixa-cabecalho h2 {
-	position: absolute;
-	left: 10px;
-}
-
-.caixa-cabecalho h1 {
-	top: 30px;
-	font-size: 2.5em;
-	font-family: "Zilla Slab";
-}
-
-.caixa-cabecalho h1:before {
-	content: "[ ";
-}
-
-.caixa-cabecalho h1:after {
-	content: " ]";
-}
-
-.caixa-cabecalho h2 {
-	top: 75px;
-	font-size: 1.8em;
-}
-
+/*BASE CSS!*/
 em {
 	font-style: italic;
 }
-
-nav {
-	position: absolute;
-	right: 10px;
-	top:60px;
-}
-
-nav ul {
-	max-width: 550px;
-}
-
-nav li {
-	display: inline-block;
-	margin-left: 1em;
-	height: 1.9em;
-}
-
-nav a {
-	text-decoration: none;
-	color: #000000;
-	font-size: 1.3em;
-	transition: 0.2s all;
-	font-weight: bold;
-}
-
-nav a:hover {
-	color: #8B0000;
-}
-
-main {
-	background: linear-gradient(#F9F9F9, #444444);
-	padding-bottom: 30px;
-}
-
-.menu-selecao {
-	position: relative;
-	margin: 0 auto;
-	box-sizing: border-box;
-	width: 990px;
-	height: 130px;
-}
-
-.menu-selecao h3 {
-	position: absolute;
-	top: 20px;
-	left: 27%;
-	text-align: center;
-	font-size: 1.6em;
-}
-
-.lista-selecao-categoria {
-	position: absolute;
-	top: 70px;
-	left: 15%;
-}
-
-.lista-selecao-categoria .item {
-	display: inline-block;
-	margin-right: 1.4em;
-}
-
-.lista-selecao-categoria .item button {
-	text-decoration: none;
-	color: black;
-	font-size: 1.222em;
-	transition: 0.2s all;
-	font-weight: bold;
-	border-width: 0px;
-	border-radius: 50px;
-	background-color: #D7D7D7;
-	cursor: pointer;
-}
-
-.lista-selecao-categoria .item button:hover {
-	color: #8B0000;
-}
-
-.caixa-conteudo-principal {
-	position: relative;
-	width: 990px;
-	margin: 0 auto;
-	height: 899px;
-}
-
-.lista-fotos {
-	position: absolute;
-	margin-top: 50px;
-}
+/*BASE CSS!*/
 
 .fotos {
 	width: 25%;
@@ -146,37 +23,8 @@ main {
 	position: relative;
 }
 
-.fotos a {
-	text-decoration: none;
-	color: #000000;
-	font-size: 1.3em;
-	transition: 0.2s all;
-}
-
-.fotos a:hover {
-	color: #8B0000;
-}
-
-
 .fotos:nth-child(2n) {
 	border-color: #8B0000;
-}
-
-.fotos h3 {
-	font-size: 1.2em;
-	font-weight: bold;
-	text-align: center;
-}
-
-.fotos img {
-	position: absolute;
-	width: 25%;
-	top: 100px;
-	left: 90px;
-}
-
-.imgDemo {
-	border-radius: 10px;
 }
 
 footer {
