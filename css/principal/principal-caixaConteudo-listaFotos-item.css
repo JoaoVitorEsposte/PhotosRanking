@@ -1,7 +1,24 @@
+.principal__caixaConteudo__listaFotos__item {
+	border: 3px solid #000000;
+	border-radius: 20px;
+	box-sizing: border-box;
+	display: inline-block;
+	height: 290px;
+	margin: 0 4% 12% 4%;
+	padding: 15px;
+	position: relative;
+	vertical-align: top;
+	width: 25%;
+}
+
+.principal__caixaConteudo__listaFotos__item:nth-child(2n) {
+	border-color: #8B0000;
+}
+
 .principal__caixaConteudo__listaFotos__item a {
-    text-decoration: none;
 	color: #000000;
 	font-size: 1.3em;
+    text-decoration: none;
 	transition: 0.2s all;
 }
 

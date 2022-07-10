@@ -1,67 +1,18 @@
+/*BASE CSS!*/
 body {
 	font-family: 'Zilla Slab', serif;
 }
 
-/*BASE CSS!*/
 em {
 	font-style: italic;
 }
-/*BASE CSS!*/
 
-.fotos {
-	width: 25%;
-	height: 290px;
-	box-sizing: border-box;
-	display: inline-block;
-	vertical-align: top;
-	border: 3px solid #000000;
-	border-radius: 20px;
-	margin: 0 4% 12% 4%;
-	padding: 15px;
-	position: relative;
-}
-
-.fotos:nth-child(2n) {
-	border-color: #8B0000;
-}
-
-footer {
-	clear: left;
-	background: #000000;
-	padding: 30px;
-}
-
-.caixa-footer {
-	position: relative;
-	width: 990px;
-	height: 100px;
-	color: white;
-	box-sizing: border-box;
-	margin: 10px auto;
-}
-
-.caixa-footer .copy {
+.copy {
 	position: absolute;
 	right: 0px;
 	top: 25%;
 }
-
-.caixa-footer h1 {
-	font-size: 1.3em;
-}
-
-.caixa-footer h1:before {
-	content: "[ ";
-}
-
-.caixa-footer h1:after {
-	content: " ]";
-}
-
-.caixa-footer h2 {
-	margin-top: 5px;
-	font-size: 1.1em;
-}
+/*BASE CSS!*/
 
 .caixa-perguntas {
 	position: relative;
