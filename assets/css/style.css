@@ -1,6 +1,11 @@
 /*BASE CSS!*/
-body {
-	font-family: 'Zilla Slab', serif;
+
+:root {
+	--fontZillaSlab: 'Zilla Slab', serif;
+}
+
+body, * {
+	font-family: var(--fontZillaSlab);
 }
 
 em {
@@ -13,31 +18,6 @@ em {
 	top: 25%;
 }
 /*BASE CSS!*/
-
-.caixa-perguntas {
-	position: relative;
-	margin: 0px auto;
-	box-sizing: border-box;
-	width: 990px;
-	height: 539px;
-	padding: 40px;
-}
-
-main .pergunta {
-	margin-bottom: 30px;
-	position: absolute;
-	left: 30px;
-
-}
-
-main .pergunta h3 {
-	font-size: 1.9em;
-	margin-bottom: 10px;
-}
-
-main .pergunta p {
-	font-size: 1.2em;
-}
 
 main .caixa-quem-somos {
 	position: relative;

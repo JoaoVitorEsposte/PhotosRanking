@@ -1,0 +1,12 @@
+.principal__listaPerguntas {
+    align-items: flex-start;
+	box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+	height: 539px;
+    justify-content: space-around;
+	margin: 0px auto;
+	padding: 40px;
+    position: relative;
+	width: 990px;
+}
