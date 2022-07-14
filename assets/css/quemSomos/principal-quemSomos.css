@@ -1,0 +1,10 @@
+.principal__quemSomos {
+    display: flex;
+    flex-direction: column;
+	height: 339px;
+    justify-content: space-evenly;
+	margin: 0 auto;
+	padding: 40px;
+    text-align: center;
+    width: 690px;
+}

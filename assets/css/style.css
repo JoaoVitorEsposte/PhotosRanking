@@ -19,30 +19,6 @@ em {
 }
 /*BASE CSS!*/
 
-main .caixa-quem-somos {
-	position: relative;
-	width: 690px;
-	height: 539px;
-	margin: 0 auto;
-}
-
-main .quem-somos {
-	position: absolute;
-	left: 50px;
-	text-align: center;
-	padding: 40px;
-}
-
-.quem-somos h2 {
-	font-size: 1.9em;
-	margin-bottom: 1em;
-}
-
-.quem-somos p {
-	font-size: 1.4em;
-	line-height: 1.16em;
-}
-
 .caixa-imagem {
 	position: relative;
 	width: 990px;
