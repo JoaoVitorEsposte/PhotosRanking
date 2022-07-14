@@ -82,31 +82,20 @@ em {
 	clear: left;
 }
 
-.caixa-formulario-sugestao {
-	position: relative;
-	width: 990px;
-	min-height: 700px;
-	margin: 0px auto;
-}
-
-.caixa-formulario-sugestao form {
-	padding-top: 40px;
-}
-
-.caixa-formulario-sugestao label, .caixa-formulario-sugestao legend, .caixa-formulario-sugestao input, .caixa-formulario-sugestao textarea {
+.principal__caixaFormulario__formulario label, .principal__caixaFormulario__formulario legend, .principal__caixaFormulario__formulario input, .principal__caixaFormulario__formulario textarea {
 	font-size: 1.4em;
 	margin: 0.6em 0 1em 0;
 	line-height: 1.4em;
-	font-family: 'Zilla Slab', serif;
+	font-family: var(--fontZillaSlab);
 }
 
-.caixa-formulario-sugestao input {
+.principal__caixaFormulario__formulario input {
 	box-sizing: border-box;
 	padding: 0.5em;
 	text-align: center;
 	background-color: #F9F9F9;
 	border-radius: 9px;
-	font-family: 'Zilla Slab', serif;
+	font-family: var(--fontZillaSlab);
 }
 
 .radio label {
@@ -117,26 +106,26 @@ em {
 .radio input {
 	margin-right: 0.2em;
 	cursor: pointer;
-	font-family: 'Zilla Slab', serif;
+	font-family: var(--fontZillaSlab);
 }
 
-.caixa-formulario-sugestao textarea {
+.principal__caixaFormulario__formulario textarea {
 	background-color: #D7D7D7;
 	border-radius: 9px;
 	padding: 9px 8px 8px 12px;
-	font-family: 'Zilla Slab', serif;
+	font-family: var(--fontZillaSlab);
 }
 
-.caixa-formulario-sugestao input.enviar-sugestao {
+.principal__caixaFormulario__formulario input.enviar-sugestao {
 	background-color: orange;
 	cursor: pointer;
 	color: #EC0000;
 	transition: 0.4s all;
 	margin-left: 0.4em;
 	box-shadow: 3px 3px 7px black;
-	font-family: 'Zilla Slab', serif;
+	font-family: var(--fontZillaSlab);
 }
 
-.caixa-formulario-sugestao input.enviar-sugestao:hover {
+.principal__caixaFormulario__formulario input.enviar-sugestao:hover {
 	transform: scale(1.13);
 }

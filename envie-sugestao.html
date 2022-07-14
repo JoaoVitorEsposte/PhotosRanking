@@ -1,32 +1,77 @@
 <!DOCTYPE html>
 <html>
 <head lang="pt-br">
-	<title>Envie-nos uma Sugestão</title>
-	<link rel="stylesheet" href=".\..\CSS\reset.css">
-	<link rel="stylesheet" href=".\..\CSS\style.css">
 	<meta charset="utf-8">
+	<title>Envie-nos uma Sugestão</title>
+	<link rel="stylesheet" type="text/css" href="./assets/css/reset.css">
+	<link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+
+	<!--Fonte Zilla Slab-->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@500&display=swap" rel="stylesheet">
+
+	<!--CSS de cabecalho-->
+	<link href="./assets/css/cabecalho.css" rel="stylesheet">
+	<link href="./assets/css/cabecalho/cabecalho-menu.css" rel="stylesheet">
+	<link href="./assets/css/cabecalho/tituloSub/cabecalho-tituloSub-titulo.css" rel="stylesheet">
+	<link href="./assets/css/cabecalho/tituloSub/cabecalho-tituloSub-subtitulo.css" rel="stylesheet">
+	<link href="./assets/css/cabecalho/menu/cabecalho-menu-lista.css" rel="stylesheet">
+	<link href="./assets/css/cabecalho/menu/cabecalho-menu-lista-item.css" rel="stylesheet">
+	<link href="./assets/css/cabecalho/menu/cabecalho-menu-lista-item-link.css" rel="stylesheet">
+
+	<!--CSS de principal-->
+	<link href="./assets/css/envieSugestao/principal.css" rel="stylesheet">
+	<link href="./assets/css/envieSugestao/principal-caixaFormulario.css" rel="stylesheet">
+	<link href="./assets/css/envieSugestao/principal-caixaFormulario-formulario.css" rel="stylesheet">
+	
+	<!--CSS de rodape-->
+	<link href="./assets/css/rodape.css" rel="stylesheet">
+	<link href="./assets/css/rodape-caixa.css" rel="stylesheet">
+	<link href="./assets/css/rodape-caixa/rodape-caixa-titulo.css" rel="stylesheet">
+	<link href="./assets/css/rodape-caixa/rodape-caixa-subtitulo.css" rel="stylesheet">
 </head>
 <body>
-	<header>
-		<section class="caixa-cabecalho">
-			<h1>PhotosRanking</h1>
-			<h2>A Site by<br><em>João Vitor Esposte Campos</em></h2>
-
-			<nav>
-				<ul>
-					<li><a href=".\..\index.html">Página Principal</a></li>
-					<li><a href="quem-somos.html">Quem Somos</a></li>
-					<li><a href="perguntas-frequentes.html">Perguntas Frequentes</a></li>
-					<li><a href="envie-sugestao.html">Envie-nos uma sugestão</a></li>
-					<li><a href="ranking-fotos.html">Ranking de Fotos</a></li>
-				</ul>
-			</nav>
+	<header class="cabecalho">
+		<section class="cabecalho__tituloSub">
+			<h1 class="cabecalho__tituloSub__titulo">PhotosRanking</h1>
+			<h2 class="cabecalho__tituloSub__subtitulo">A Site by<br><em>João Vitor Esposte Campos</em></h2>
 		</section>
+
+		<nav class="cabecalho__menu">
+			<ul class="cabecalho__menu__lista">
+				<li class="cabecalho__menu__lista__item">
+					<a class="cabecalho__menu__lista__item__link" href=".\index.html">
+						Página Principal
+					</a>
+				</li>
+				<li class="cabecalho__menu__lista__item">
+					<a class="cabecalho__menu__lista__item__link" href=".\quem-somos.html">
+						Quem Somos
+					</a>
+				</li>
+				<li class="cabecalho__menu__lista__item">
+					<a class="cabecalho__menu__lista__item__link" href=".\perguntas-frequentes.html">
+						Perguntas Frequentes
+					</a>
+				</li>
+				<li class="cabecalho__menu__lista__item">
+					<a class="cabecalho__menu__lista__item__link" href=".\envie-sugestao.html">
+						Envie-nos uma sugestão
+					</a>
+				</li>
+				<li class="cabecalho__menu__lista__item">
+					<a class="cabecalho__menu__lista__item__link" href=".\ranking-fotos.html">
+						Ranking de Fotos
+					</a>
+				</li>
+			</ul>
+		</nav>
 	</header>
 
-	<main>
-		<div class="caixa-formulario-sugestao">
-			<form>
+	<main class="principal">
+		<div class="principal__caixaFormulario">
+			<form class="principal__caixaFormulario__formulario">
 				<label for="nomesobrenome">Nome e Sobrenome: *</label><br>
 				<input type="text" id="nomesobrenome" required><br>
 
@@ -50,11 +95,11 @@
 		</div>
 	</main>
 
-	<footer>
-		<section class="caixa-footer">
+	<footer class="rodape">
+		<section class="rodape__caixa">
 			<p class="copy">&copy; Copyright - All Rights Reserved</p>
-			<h1>PhotosRanking</h1>
-			<h2>A Site by<br><em>João Vitor Esposte Campos</em></h2>
+			<h1 class="rodape__caixa__titulo">PhotosRanking</h1>
+			<h2 class="rodape__caixa__subtitulo">A Site by<br><em>João Vitor Esposte Campos</em></h2>
 		</section>
 	</footer>
 </body>
