@@ -24,6 +24,8 @@
 	<link href="./assets/css/envieSugestao/principal.css" rel="stylesheet">
 	<link href="./assets/css/envieSugestao/principal-caixaFormulario.css" rel="stylesheet">
 	<link href="./assets/css/envieSugestao/principal-caixaFormulario-formulario.css" rel="stylesheet">
+	<link href="./assets/css/envieSugestao/principal-caixaFormulario-formulario/principal-caixaFormulario-formulario-radio.css" rel="stylesheet">
+	<link href="./assets/css/envieSugestao/principal-caixaFormulario-formulario/principal-caixaFormulario-formulario-enviar.css" rel="stylesheet">
 	
 	<!--CSS de rodape-->
 	<link href="./assets/css/rodape.css" rel="stylesheet">
@@ -81,7 +83,7 @@
 				<label for="telefone">Telefone para contato:</label><br>
 				<input type="tel" id="telefone" placeholder="(XX) XXXXX-XXXX" required><br>
 
-				<fieldset class="radio">
+				<fieldset class="principal__caixaFormulario__formulario__radio">
 					<legend>Como prefere receber nosso contato?</legend>
 					<label><input type="radio" name="contato" value="email" checked>Email</label>
 					<label><input type="radio" name="contato" value="telefone">Telefone</label><br>
@@ -90,7 +92,7 @@
 				<label for="sugestao">Informe-nos sua sugestão para este site no campo abaixo. Estaremos felizes em receber críticas também.</label><br>
 				<textarea id="sugestao" rows="20" cols="50" required></textarea><br>
 
-				<input type="submit" class="enviar-sugestao" value="Enviar Sugestão">
+				<input class="principal__caixaFormulario__formulario__enviar" type="submit" value="Enviar Sugestão">
 			</form>
 		</div>
 	</main>

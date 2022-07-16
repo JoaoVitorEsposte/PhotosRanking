@@ -1,0 +1,13 @@
+input.principal__caixaFormulario__formulario__enviar {
+	background-color: orange;
+	box-shadow: 3px 3px 7px black;
+	color: #EC0000;
+	cursor: pointer;
+	font-family: var(--fontZillaSlab);
+	transition: 0.4s all;
+	margin-left: 0.4em;
+}
+
+.principal__caixaFormulario__formulario__enviar:hover {
+	transform: scale(1.13);
+}

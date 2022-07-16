@@ -17,6 +17,7 @@ em {
 	right: 0px;
 	top: 25%;
 }
+
 /*BASE CSS!*/
 
 .caixa-imagem {
@@ -80,52 +81,4 @@ em {
 
 .auxiliar-gradient {
 	clear: left;
-}
-
-.principal__caixaFormulario__formulario label, .principal__caixaFormulario__formulario legend, .principal__caixaFormulario__formulario input, .principal__caixaFormulario__formulario textarea {
-	font-size: 1.4em;
-	margin: 0.6em 0 1em 0;
-	line-height: 1.4em;
-	font-family: var(--fontZillaSlab);
-}
-
-.principal__caixaFormulario__formulario input {
-	box-sizing: border-box;
-	padding: 0.5em;
-	text-align: center;
-	background-color: #F9F9F9;
-	border-radius: 9px;
-	font-family: var(--fontZillaSlab);
-}
-
-.radio label {
-	margin-right: 1.5em;
-	cursor: pointer;
-}
-
-.radio input {
-	margin-right: 0.2em;
-	cursor: pointer;
-	font-family: var(--fontZillaSlab);
-}
-
-.principal__caixaFormulario__formulario textarea {
-	background-color: #D7D7D7;
-	border-radius: 9px;
-	padding: 9px 8px 8px 12px;
-	font-family: var(--fontZillaSlab);
-}
-
-.principal__caixaFormulario__formulario input.enviar-sugestao {
-	background-color: orange;
-	cursor: pointer;
-	color: #EC0000;
-	transition: 0.4s all;
-	margin-left: 0.4em;
-	box-shadow: 3px 3px 7px black;
-	font-family: var(--fontZillaSlab);
-}
-
-.principal__caixaFormulario__formulario input.enviar-sugestao:hover {
-	transform: scale(1.13);
 }

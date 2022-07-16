@@ -1,3 +1,26 @@
 .principal__caixaFormulario__formulario {
 	padding-top: 40px;
 }
+
+.principal__caixaFormulario__formulario label, .principal__caixaFormulario__formulario legend, .principal__caixaFormulario__formulario input, .principal__caixaFormulario__formulario textarea {
+	font-family: var(--fontZillaSlab);
+	font-size: 1.4em;
+	line-height: 1.4em;
+	margin: 0.6em 0 1em 0;
+}
+
+.principal__caixaFormulario__formulario input {
+	background-color: #F9F9F9;
+	border-radius: 9px;
+	box-sizing: border-box;
+	font-family: var(--fontZillaSlab);
+	padding: 0.5em;
+	text-align: center;
+}
+
+.principal__caixaFormulario__formulario textarea {
+	background-color: #D7D7D7;
+	border-radius: 9px;
+	font-family: var(--fontZillaSlab);
+	padding: 9px 8px 8px 12px;
+}

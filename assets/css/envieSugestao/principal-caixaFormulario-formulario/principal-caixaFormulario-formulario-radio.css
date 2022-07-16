@@ -1,0 +1,10 @@
+.principal__caixaFormulario__formulario__radio label {
+	cursor: pointer;
+	margin-right: 1.5em;
+}
+
+.principal__caixaFormulario__formulario__radio input {
+	cursor: pointer;
+	font-family: var(--fontZillaSlab);
+	margin-right: 0.2em;
+}
