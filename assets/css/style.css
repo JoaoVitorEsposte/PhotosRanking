@@ -20,65 +20,6 @@ em {
 
 /*BASE CSS!*/
 
-.caixa-imagem {
-	position: relative;
-	width: 990px;
-	height: auto;
-	margin: 0 auto;
-	padding: 60px;
-}
-
-.caixa-imagem h2 {
-	font-size: 2em;
-	text-align: center;
-	margin-bottom: 1.9em;
-	font-weight: bold;
-}
-
-.caixa-imagem img {
-	margin: 0 30px 60px 0;
-	float: left;
-}
-
 .foto-grande-demais {
 	width: 70%;
-}
-
-.caixa-imagem p {
-	font-size: 1.4em;
-	margin-bottom: 40px;
-	text-align: left;
-	line-height: 1.3em;
-}
-
-.avaliacao {
-	margin-top: 250px;
-}
-
-.mensagem-avaliacao {
-	font-size: 1.5em;
-	font-weight: bold;
-	line-height: 1.3em;
-}
-
-.star {
-	font-size: 1.3em;
-	display: inline-block;
-	cursor: default;
-	background: none;
-	border: none;
-	border-radius: 4px;
-
-}
-
-.zerar {
-	font-size: 1.5em;
-	font-weight: bold;
-	line-height: 1.3em;
-	background: none;
-	border: none;
-}
-
-.auxiliar-gradient {
-	clear: left;
 }
