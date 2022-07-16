@@ -2,7 +2,7 @@
 <html>
 <head lang="pt-br">
 	<meta charset="utf-8">
-	<title>Quem Somos</title>
+	<title>Envie-nos uma Sugestão</title>
 	<link rel="stylesheet" type="text/css" href="./assets/css/reset.css">
 	<link rel="stylesheet" type="text/css" href="./assets/css/style.css">
 
@@ -21,10 +21,11 @@
 	<link href="./assets/css/cabecalho/menu/cabecalho-menu-lista-item-link.css" rel="stylesheet">
 
 	<!--CSS de principal-->
-	<link href="./assets/css/quemSomos/principal.css" rel="stylesheet">
-	<link href="./assets/css/quemSomos/principal-quemSomos.css" rel="stylesheet">
-	<link href="./assets/css/quemSomos/principal-quemSomos/principal-quemSomos-titulo.css" rel="stylesheet">
-	<link href="./assets/css/quemSomos/principal-quemSomos/principal-quemSomos-descricao.css" rel="stylesheet">
+	<link href="./assets/css/envieSugestao/principal.css" rel="stylesheet">
+	<link href="./assets/css/envieSugestao/principal-caixaFormulario.css" rel="stylesheet">
+	<link href="./assets/css/envieSugestao/principal-caixaFormulario-formulario.css" rel="stylesheet">
+	<link href="./assets/css/envieSugestao/principal-caixaFormulario-formulario/principal-caixaFormulario-formulario-radio.css" rel="stylesheet">
+	<link href="./assets/css/envieSugestao/principal-caixaFormulario-formulario/principal-caixaFormulario-formulario-enviar.css" rel="stylesheet">
 	
 	<!--CSS de rodape-->
 	<link href="./assets/css/rodape.css" rel="stylesheet">
@@ -47,22 +48,22 @@
 					</a>
 				</li>
 				<li class="cabecalho__menu__lista__item">
-					<a class="cabecalho__menu__lista__item__link" href=".\quem-somos.html">
+					<a class="cabecalho__menu__lista__item__link" href=".\quemSomos.html">
 						Quem Somos
 					</a>
 				</li>
 				<li class="cabecalho__menu__lista__item">
-					<a class="cabecalho__menu__lista__item__link" href=".\perguntas-frequentes.html">
+					<a class="cabecalho__menu__lista__item__link" href=".\perguntasFrequentes.html">
 						Perguntas Frequentes
 					</a>
 				</li>
 				<li class="cabecalho__menu__lista__item">
-					<a class="cabecalho__menu__lista__item__link" href=".\envie-sugestao.html">
+					<a class="cabecalho__menu__lista__item__link" href=".\envieSugestao.html">
 						Envie-nos uma sugestão
 					</a>
 				</li>
 				<li class="cabecalho__menu__lista__item">
-					<a class="cabecalho__menu__lista__item__link" href=".\ranking-fotos.html">
+					<a class="cabecalho__menu__lista__item__link" href=".\rankingFotos.html">
 						Ranking de Fotos
 					</a>
 				</li>
@@ -71,10 +72,29 @@
 	</header>
 
 	<main class="principal">
-		<section class="principal__quemSomos">
-			<h2 class="principal__quemSomos__titulo">Quem nós somos?</h2>
-			<p class="principal__quemSomos__descricao">"Nós somos" uma pessoa só: João Vitor Esposte Campos. Este é um site criado inteiramente por mim para fins de portfólio e desenvolvimento de Hard Skills em HTML e CSS. Posteriormente quero aplicar Javascript neste site para deixá-lo mais eficiente e funcional.</p>
-		</section>
+		<div class="principal__caixaFormulario">
+			<form class="principal__caixaFormulario__formulario">
+				<label for="nomesobrenome">Nome e Sobrenome: *</label><br>
+				<input type="text" id="nomesobrenome" required><br>
+
+				<label for="email" required>Email para contato: *</label><br>
+				<input type="email" id="email" required placeholder="fulano@email.com"><br>
+
+				<label for="telefone">Telefone para contato:</label><br>
+				<input type="tel" id="telefone" placeholder="(XX) XXXXX-XXXX" required><br>
+
+				<fieldset class="principal__caixaFormulario__formulario__radio">
+					<legend>Como prefere receber nosso contato?</legend>
+					<label><input type="radio" name="contato" value="email" checked>Email</label>
+					<label><input type="radio" name="contato" value="telefone">Telefone</label><br>
+				</fieldset>
+
+				<label for="sugestao">Informe-nos sua sugestão para este site no campo abaixo. Estaremos felizes em receber críticas também.</label><br>
+				<textarea id="sugestao" rows="20" cols="50" required></textarea><br>
+
+				<input class="principal__caixaFormulario__formulario__enviar" type="submit" value="Enviar Sugestão">
+			</form>
+		</div>
 	</main>
 
 	<footer class="rodape">

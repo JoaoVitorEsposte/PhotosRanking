@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html>
-<head lang="pt-br">
+<head>
 	<meta charset="utf-8">
-	<title>Perguntas Frequentes</title>
+	<title>Ranking de Fotos</title>
 	<link rel="stylesheet" type="text/css" href="./assets/css/reset.css">
 	<link rel="stylesheet" type="text/css" href="./assets/css/style.css">
 
@@ -21,17 +21,19 @@
 	<link href="./assets/css/cabecalho/menu/cabecalho-menu-lista-item-link.css" rel="stylesheet">
 
 	<!--CSS de principal-->
-	<link href="./assets/css/perguntasFrequentes/principal.css" rel="stylesheet">
-	<link href="./assets/css/perguntasFrequentes/principal-listaPerguntas.css" rel="stylesheet">
-	<link href="./assets/css/perguntasFrequentes/principal-listaPerguntas-pergunta.css" rel="stylesheet">
-	<link href="./assets/css/perguntasFrequentes/principal-listaPerguntas-pergunta/principal-listaPerguntas-pergunta-titulo.css" rel="stylesheet">
-	<link href="./assets/css/perguntasFrequentes/principal-listaPerguntas-pergunta/principal-listaPerguntas-pergunta-resposta.css" rel="stylesheet">
-
+	<link href="./assets/css/rankingFotos/principal.css" rel="stylesheet">
+	<link href="./assets/css/rankingFotos/principal-caixaTabela.css" rel="stylesheet">
+	<link href="./assets/css/rankingFotos/principal-caixaTabela-tabela.css" rel="stylesheet">
+	<link href="./assets/css/rankingFotos/principal-caixaTabela-tabela/principal-caixaTabela-tabela-cabecalho.css" rel="stylesheet">
+	<link href="./assets/css/rankingFotos/principal-caixaTabela-tabela/principal-caixaTabela-tabela-conteudo.css" rel="stylesheet">
+	
 	<!--CSS de rodape-->
 	<link href="./assets/css/rodape.css" rel="stylesheet">
 	<link href="./assets/css/rodape-caixa.css" rel="stylesheet">
 	<link href="./assets/css/rodape-caixa/rodape-caixa-titulo.css" rel="stylesheet">
 	<link href="./assets/css/rodape-caixa/rodape-caixa-subtitulo.css" rel="stylesheet">
+	
+
 </head>
 <body>
 	<header class="cabecalho">
@@ -48,22 +50,22 @@
 					</a>
 				</li>
 				<li class="cabecalho__menu__lista__item">
-					<a class="cabecalho__menu__lista__item__link" href=".\quem-somos.html">
+					<a class="cabecalho__menu__lista__item__link" href=".\quemSomos.html">
 						Quem Somos
 					</a>
 				</li>
 				<li class="cabecalho__menu__lista__item">
-					<a class="cabecalho__menu__lista__item__link" href=".\perguntas-frequentes.html">
+					<a class="cabecalho__menu__lista__item__link" href=".\perguntasFrequentes.html">
 						Perguntas Frequentes
 					</a>
 				</li>
 				<li class="cabecalho__menu__lista__item">
-					<a class="cabecalho__menu__lista__item__link" href=".\envie-sugestao.html">
+					<a class="cabecalho__menu__lista__item__link" href=".\envieSugestao.html">
 						Envie-nos uma sugestão
 					</a>
 				</li>
 				<li class="cabecalho__menu__lista__item">
-					<a class="cabecalho__menu__lista__item__link" href=".\ranking-fotos.html">
+					<a class="cabecalho__menu__lista__item__link" href=".\rankingFotos.html">
 						Ranking de Fotos
 					</a>
 				</li>
@@ -72,22 +74,56 @@
 	</header>
 
 	<main class="principal">
-		<ul class="principal__listaPerguntas">
-			<li class="principal__listaPerguntas__pergunta">
-				<h3 class="principal__listaPerguntas__pergunta__titulo">Quem é o autor das fotografias deste site?</h3>
-				<p class="principal__listaPerguntas__pergunta__resposta">O autor de todas as fotos presentes no site para avaliação é João Vitor Esposte Campos.</p>
-			</li>
-
-			<li class="principal__listaPerguntas__pergunta">
-				<h3 class="principal__listaPerguntas__pergunta__titulo">Eu posso enviar minhas fotos para serem avaliadas neste site?</h3>
-				<p class="principal__listaPerguntas__pergunta__resposta">Estamos no início do desenvimento do site, porém em breve teremos essa funcionalidade implementada aqui.</p>
-			</li>
-
-			<li class="principal__listaPerguntas__pergunta">
-				<h3 class="principal__listaPerguntas__pergunta__titulo">Eu posso monetizar se tiver uma avaliação alta como fotógtrafo?</h3>
-				<p class="principal__listaPerguntas__pergunta__resposta">No momento não temos nenhum patrocinador, por conta disso nós não pagaremos por suas fotos.</p>
-			</li>
-		</ul>
+		<section class="principal__caixaTabela">
+			<table class="principal__caixaTabela__tabela">
+				<thead class="principal__caixaTabela__tabela__cabecalho">
+					<tr>
+						<th>Nome do Fotógrafo</th>
+						<th>Nome da Fotografia</th>
+						<th>Registro da Fotografia</th>
+						<th>Nota</th>
+					</tr>
+				</thead>
+				<tbody class="principal__caixaTabela__tabela__conteudo">
+					<tr>
+						<td>João Vitor Esposte Campos</td>
+						<td>Uma planta à luz do poste durante a noite</td>
+						<td>Foto 1</td>
+						<td>10</td>
+					</tr>
+					<tr>
+						<td>João Vitor Esposte Campos</td>
+						<td>Plantas entre o poste e a câmera</td>
+						<td>Foto 2</td>
+						<td>8.5</td>
+					</tr>
+					<tr>
+						<td>João Vitor Esposte Campos</td>
+						<td>Mouse Deathadder da Razer</td>
+						<td>Foto 4</td>
+						<td>7</td>
+					</tr>
+					<tr>
+						<td>João Vitor Esposte Campos</td>
+						<td>Um catavento parado à noite</td>
+						<td>Foto 3</td>
+						<td>5</td>
+					</tr>
+					<tr>
+						<td>João Vitor Esposte Campos</td>
+						<td>Teclado retroiluminado</td>
+						<td>Foto 5</td>
+						<td>4</td>
+					</tr>
+					<tr>
+						<td>João Vitor Esposte Campos</td>
+						<td>Um abajur de metal com arte de flores</td>
+						<td>Foto 6</td>
+						<td>3.2</td>
+					</tr>
+				</tbody>
+			</table>
+		</section>
 	</main>
 
 	<footer class="rodape">
