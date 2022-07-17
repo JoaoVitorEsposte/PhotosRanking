@@ -1,7 +1,16 @@
 .cabecalho {
     background-color: #F9F9F9;
     display: flex;
-    justify-content: space-around;
-    width: 100vw;
-    padding: 4rem;
+    justify-content: space-between;
+    /*MODELO PARA DESKTOP justify-content: space-around;*/
+    padding: 1.3rem 0 .9rem 1.2em;
+    width: calc(100vw - 1.2rem);
+}
+
+@media screen and (max-width: 320px) {
+    .cabecalho {
+        align-items: flex-start;
+        flex-direction: column;
+        height: 34vh;
+    }
 }

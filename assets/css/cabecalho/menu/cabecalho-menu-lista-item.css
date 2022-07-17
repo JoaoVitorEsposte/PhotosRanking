@@ -1,5 +1,11 @@
 .cabecalho__menu__lista__item {
 	display: inline-block;
 	height: 1.9em;
-	margin-left: 1em;
+	margin-right: 1em;
+}
+
+@media screen and (max-width: 320px){
+	.cabecalho__menu__lista__item {
+		display: block;
+	}
 }
