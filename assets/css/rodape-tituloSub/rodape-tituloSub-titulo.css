@@ -1,0 +1,11 @@
+.rodape__tituloSub__titulo {
+	font-size: 1.3em;
+}
+
+.rodape__tituloSub__titulo:before {
+	content: "[ ";
+}
+
+.rodape__tituloSub__titulo:after {
+	content: " ]";
+}
