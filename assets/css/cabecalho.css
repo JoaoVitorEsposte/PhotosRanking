@@ -1,10 +1,11 @@
 .cabecalho {
+    box-sizing: border-box;
     background-color: #F9F9F9;
     display: flex;
     justify-content: space-between;
     /*MODELO PARA DESKTOP justify-content: space-around;*/
     padding: 1.3rem 0 .9rem 1.2em;
-    width: calc(100vw - 1.2rem);
+    width: 100vw;
 }
 
 @media screen and (max-width: 425px) {
