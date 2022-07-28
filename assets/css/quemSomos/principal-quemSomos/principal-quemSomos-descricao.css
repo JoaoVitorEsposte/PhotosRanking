@@ -8,3 +8,9 @@
 		width: 80vw;
 	}
 }
+
+@media screen and (min-width: 1024px) {
+	.principal__quemSomos__descricao{
+		width: 50vw;
+	}
+}
