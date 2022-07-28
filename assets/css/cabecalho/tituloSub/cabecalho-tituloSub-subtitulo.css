@@ -2,8 +2,14 @@
 	font-size: 1.8em;
 }
 
-@media screen and (max-width: 425px){
+@media screen and (min-width: 0px){
 	.cabecalho__tituloSub__subtitulo {
+		font-size: 1.386em;
+	}
+}
+
+@media screen and (min-width: 427px){
+	.cabecalho__tituloSub__subtitulo{
 		font-size: 1.386em;
 	}
 }

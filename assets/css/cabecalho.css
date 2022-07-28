@@ -1,17 +1,26 @@
 .cabecalho {
-    box-sizing: border-box;
     background-color: #F9F9F9;
+    box-sizing: border-box;
     display: flex;
     justify-content: space-between;
     /*MODELO PARA DESKTOP justify-content: space-around;*/
-    padding: 1.3rem 0 .9rem 1.2em;
+    padding: 1.9rem 0 .9rem 1.2em;
     width: 100vw;
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (min-width: 0px) {
     .cabecalho {
         align-items: flex-start;
         flex-direction: column;
-        height: 34vh;
+        height: 39.5vh;
+    }
+}
+
+@media screen and (min-width: 535px){
+    .cabecalho {
+        align-items: center;
+        flex-direction: row;
+        height: 25vh;
+        justify-content: space-around;
     }
 }

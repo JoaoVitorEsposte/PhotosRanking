@@ -4,8 +4,14 @@
 	margin-right: 1em;
 }
 
-@media screen and (max-width: 425px){
+@media screen and (min-width: 0px){
 	.cabecalho__menu__lista__item {
+		display: block;
+	}
+}
+
+@media screen and (min-width: 535px){
+	.cabecalho__menu__lista__item{
 		display: block;
 	}
 }
