@@ -1,6 +1,8 @@
 .principal__caixaConteudo {
-	position: relative;
-	width: 990px;
+	display: flex;
+	/*height: 899px; DESKTOP*/
+	height: auto;
 	margin: 0 auto;
-	height: 899px;
+	/*width: 990px; DESKTOP*/
+	width: 100vw;
 }
