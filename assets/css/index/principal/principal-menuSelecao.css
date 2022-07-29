@@ -1,7 +1,11 @@
 .principal__menuSelecao {
-	position: relative;
-	margin: 0 auto;
+	align-items: center;
 	box-sizing: border-box;
-	width: 990px;
-	height: 130px;
+	display: flex;
+	/*height: 130px;DESKTOP*/
+	height: 25vh;
+	justify-content: space-around;
+	flex-direction: column;
+	/*width: 990px;DESKTOP*/
+	width: 100vw;
 }

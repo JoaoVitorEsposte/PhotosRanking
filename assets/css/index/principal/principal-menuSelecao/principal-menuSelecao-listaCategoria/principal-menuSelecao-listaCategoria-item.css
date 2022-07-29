@@ -1,5 +1,6 @@
 .principal__menuSelecao__listaCategoria__item {
-	display: inline-block;
+	display: block;
+	line-height: 2.4em;
 	margin-right: 1.4em;
 }
 
