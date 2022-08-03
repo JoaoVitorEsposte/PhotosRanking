@@ -7,7 +7,17 @@
 	/*height: 539px;MODELO DE DESKTOP*/
     justify-content: space-around;
 	/*margin: 0px auto;MODELO DE DESKTOP*/
+    margin: 0 auto;
 	padding: 40px;
     width: 100vw;
 	/*width: 990px;MODELO DE DESKTOP*/
+}
+
+/*Desktop*/
+@media screen and (min-width: 1000px){
+    .principal__listaPerguntas {
+        height: 539px;
+        margin: 0px auto;
+        width: 990px;
+    }
 }
