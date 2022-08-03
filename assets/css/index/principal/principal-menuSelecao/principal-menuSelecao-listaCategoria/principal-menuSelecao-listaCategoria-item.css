@@ -1,21 +1,28 @@
 .principal__menuSelecao__listaCategoria__item {
 	display: block;
-	line-height: 2.4em;
+	line-height: 3.25em;
 	margin-right: 1.4em;
 }
 
 .principal__menuSelecao__listaCategoria__item button {
-	text-decoration: none;
-	color: black;
-	font-size: 1.222em;
-	transition: 0.2s all;
-	font-weight: bold;
-	border-width: 0px;
-	border-radius: 50px;
 	background-color: #D7D7D7;
+	border-radius: 6.6px;
+	border-width: 0px;
+	color: black;
 	cursor: pointer;
+	font-size: 1.222em;
+	font-weight: bold;
+	padding: 0.16em;
+	text-decoration: none;
+	transition: 0.2s all;
 }
 
 .principal__menuSelecao__listaCategoria__item button:hover {
 	color: #8B0000;
+}
+
+@media screen and (min-width: 1020px){
+	.principal__menuSelecao__listaCategoria__item{
+		display: inline-block;
+	}
 }

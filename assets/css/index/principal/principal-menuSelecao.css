@@ -6,6 +6,24 @@
 	height: 25vh;
 	justify-content: space-around;
 	flex-direction: column;
+	margin-bottom: 1.5em;
 	/*width: 990px;DESKTOP*/
 	width: 100vw;
+}
+
+/*Desktop*/
+@media screen and (min-width: 1020px){
+	.principal__menuSelecao{
+		height: 17vh;
+		justify-content: center;
+	}
+}
+
+/*Desktop largo*/
+@media screen and (min-width: 1185px){
+	.principal__menuSelecao{
+		height: 14vh;
+		justify-content: flex-end;
+		margin-bottom: 0;
+	}
 }
