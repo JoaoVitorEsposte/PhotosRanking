@@ -7,6 +7,15 @@
 	height: 20vh;
 	justify-content: space-around;
 	padding: 15px 0 35px 0;
+	width: 100vw;
+}
+
+.rodape--auxiliarQuemSomos{
+	position: unset;
+}
+
+.rodape--auxiliarPerguntasFrequentes{
+	position: unset;
 }
 
 @media screen and (min-width: 0px){
@@ -15,8 +24,35 @@
 	}
 }
 
+@media screen and (min-width: 421px){
+	.rodape--auxiliarQuemSomos{
+		position: absolute;
+		bottom: 0px;
+	}
+}
+
 @media screen and (min-width: 535px) {
 	.rodape{
 		flex-direction: row;
+	}
+}
+
+@media screen and (min-width: 893px) and (max-width: 999px){
+	.rodape--auxiliarPerguntasFrequentes{
+		position: absolute;
+		bottom: 0px;
+	}
+}
+
+@media screen and (min-width: 1024px){
+	.rodape{
+		height: 13vh;
+	}
+}
+
+@media screen and (min-width: 1300px){
+	.rodape--auxiliarPerguntasFrequentes{
+		position: absolute;
+		bottom: 0px;
 	}
 }

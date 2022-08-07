@@ -7,6 +7,7 @@
 	justify-content: space-around;
 	flex-direction: column;
 	margin-bottom: 1.5em;
+	margin-top: 40px;
 	/*width: 990px;DESKTOP*/
 	width: 100vw;
 }
