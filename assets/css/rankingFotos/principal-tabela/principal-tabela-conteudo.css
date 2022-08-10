@@ -1,0 +1,22 @@
+.principal__tabela__conteudo td {
+	border: 2px solid black;
+	padding: 7px 14px 7px 7px;
+}
+
+.principal__tabela__conteudo tr {
+	background-color: #E8E8E8;
+}
+
+.principal__tabela__conteudo tr:nth-child(2n) {
+	background-color: #BBBBBB;
+}
+
+@media screen and (min-width: 0px){
+	.principal__tabela__conteudo td:nth-child(1){
+		display: none;
+	}
+
+	.principal__tabela__conteudo td:nth-child(2){
+		display: none;
+	}
+}

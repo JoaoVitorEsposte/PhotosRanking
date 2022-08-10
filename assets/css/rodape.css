@@ -18,9 +18,18 @@
 	position: unset;
 }
 
+.rodape--auxiliarRankingFotos{
+	position: unset;
+}
+
 @media screen and (min-width: 0px){
 	.rodape{
 		flex-direction: column;
+	}
+
+	.rodape--auxiliarRankingFotos{
+		position: absolute;
+		bottom: 0px;
 	}
 }
 

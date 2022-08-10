@@ -1,0 +1,20 @@
+.principal__tabela__cabecalho th {
+	background-color: #CCCCCC;
+	border: 2px solid black;
+	text-align: center;
+	padding: 14px 14px 7px 7px;
+}
+
+@media screen and (min-width: 0px) {
+	.principal__tabela__cabecalho th:nth-child(1){
+		display: none;
+	}
+
+	.principal__tabela__cabecalho th:nth-child(2){
+		display: none;
+	}
+
+	.principal__tabela__cabecalho th:nth-child(3){
+		max-width: 30vw;
+	}
+}
