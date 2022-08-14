@@ -26,11 +26,6 @@
 	.rodape{
 		flex-direction: column;
 	}
-
-	.rodape--auxiliarRankingFotos{
-		position: absolute;
-		bottom: 0px;
-	}
 }
 
 @media screen and (min-width: 421px){

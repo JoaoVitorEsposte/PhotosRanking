@@ -2,7 +2,8 @@
 	background-color: #CCCCCC;
 	border: 2px solid black;
 	text-align: center;
-	padding: 14px 14px 7px 7px;
+	padding: 7px 14px 7px 7px;
+	vertical-align: middle;
 }
 
 @media screen and (min-width: 0px) {
@@ -15,6 +16,19 @@
 	}
 
 	.principal__tabela__cabecalho th:nth-child(3){
-		max-width: 30vw;
+		width: 75%;
+	}
+}
+
+@media screen and (min-width: 535px){
+	.principal__tabela__cabecalho th:nth-child(1){
+		display: table-cell;
+		width: 65%;
+	}
+}
+
+@media screen and (min-width: 1024px){
+	.principal__tabela__cabecalho th:nth-child(2){
+		display: table-cell;
 	}
 }

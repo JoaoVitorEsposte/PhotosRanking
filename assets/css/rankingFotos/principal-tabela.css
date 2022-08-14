@@ -1,4 +1,24 @@
-.principal__caixaTabela__tabela {
+.principal__tabela {
 	font-size: 1.3em;
-	margin: 0 auto 2em auto;
+	margin: 1em auto 2em auto;
+}
+
+@media screen and (min-width: 0px){
+	.principal__tabela{
+		max-width: 290px;
+		width: 70vw;
+	}
+}
+
+@media screen and (min-width: 535px) {
+	.principal__tabela{
+		margin-top: 3em;
+		max-width: 450px;
+	}
+}
+
+@media screen and (min-width: 1024px){
+	.principal__tabela{
+		max-width: fit-content;
+	}
 }

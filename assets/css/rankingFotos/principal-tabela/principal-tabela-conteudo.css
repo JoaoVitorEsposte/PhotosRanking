@@ -1,6 +1,7 @@
 .principal__tabela__conteudo td {
 	border: 2px solid black;
 	padding: 7px 14px 7px 7px;
+	vertical-align: middle;
 }
 
 .principal__tabela__conteudo tr {
@@ -18,5 +19,17 @@
 
 	.principal__tabela__conteudo td:nth-child(2){
 		display: none;
+	}
+}
+
+@media screen and (min-width: 535px){
+	.principal__tabela__conteudo td:nth-child(1){
+		display: table-cell;
+	}
+}
+
+@media screen and (min-width: 1024px){
+	.principal__tabela__conteudo td:nth-child(2){
+		display: table-cell;
 	}
 }
