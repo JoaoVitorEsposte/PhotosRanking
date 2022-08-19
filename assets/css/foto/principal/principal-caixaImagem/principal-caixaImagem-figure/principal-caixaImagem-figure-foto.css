@@ -1,0 +1,14 @@
+.principal__caixaImagem__figure__foto {
+	max-width: 370px;
+	width: 100vw;
+}
+
+.principal__caixaImagem__figure__foto--grande {
+	width: 70%;
+}
+
+@media screen and (min-width: 770px){
+	.principal__caixaImagem__figure__foto{
+		max-width: 450px;
+	}
+}

@@ -1,0 +1,14 @@
+.principal__caixaImagem__figure__descricaoFoto {
+	font-size: 1.55em;
+	margin: 1.2em 1.2em 20px 1.2em;
+	max-width: 550px;
+	text-align: justify;
+	line-height: 1.3em;
+}
+
+@media screen and (min-width: 1010px){
+    .principal__caixaImagem__figure__descricaoFoto{
+		align-self: flex-start;
+		max-width: 300px;
+	}
+}

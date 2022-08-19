@@ -1,0 +1,14 @@
+.principal__caixaImagem__figure{
+    align-items: center;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+}
+
+@media screen and (min-width: 1010px){
+    .principal__caixaImagem__figure{
+        flex-direction: row;
+        justify-content: space-around;
+    }
+}
