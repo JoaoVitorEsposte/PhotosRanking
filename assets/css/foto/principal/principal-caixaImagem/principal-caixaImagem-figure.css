@@ -9,6 +9,6 @@
 @media screen and (min-width: 1010px){
     .principal__caixaImagem__figure{
         flex-direction: row;
-        justify-content: space-around;
+        justify-content: space-evenly;
     }
 }
