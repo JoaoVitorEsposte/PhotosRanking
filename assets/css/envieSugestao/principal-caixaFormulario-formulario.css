@@ -7,7 +7,6 @@
 	font-size: 1.2em;
 	line-height: 1.2em;
 	margin: 0.6em 0 1em 0.7em;
-	text-align: left;
 }
 
 .principal__caixaFormulario__formulario input {
@@ -25,4 +24,12 @@
 	font-family: var(--fontZillaSlab);
 	padding: 9px 8px 8px 12px;
 	width: 80vw;
+	max-width: 518px;
+}
+
+.principal__caixaFormulario__formulario__radio + label > p {
+	margin: 0.6em 0 1em 0.7em;
+	max-width: 350px;
+	width: 90vw;
+	text-align: justify;
 }

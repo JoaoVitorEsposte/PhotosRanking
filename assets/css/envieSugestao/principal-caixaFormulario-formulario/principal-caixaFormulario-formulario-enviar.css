@@ -5,7 +5,7 @@ input.principal__caixaFormulario__formulario__enviar {
 	cursor: pointer;
 	font-family: var(--fontZillaSlab);
 	transition: 0.4s all;
-	margin-left: 0.4em;
+	margin-left: calc(calc(100vw - 158.13px) / 2);
 }
 
 .principal__caixaFormulario__formulario__enviar:hover {
