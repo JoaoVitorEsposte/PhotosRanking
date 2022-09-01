@@ -1,4 +1,9 @@
+:root {
+	--padding-left-formulario : calc(calc(100vw - 450px) / 3);
+}
+
 .principal__caixaFormulario__formulario {
+	box-sizing: border-box;
 	padding-top: 40px;
 }
 
@@ -32,4 +37,10 @@
 	max-width: 350px;
 	width: 90vw;
 	text-align: justify;
+}
+
+@media screen and (min-width: 535px){
+	.principal__caixaFormulario__formulario{
+		padding-left: var(--padding-left-formulario);
+	}
 }

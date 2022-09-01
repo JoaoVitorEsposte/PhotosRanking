@@ -11,3 +11,10 @@ input.principal__caixaFormulario__formulario__enviar {
 .principal__caixaFormulario__formulario__enviar:hover {
 	transform: scale(1.13);
 }
+
+@media screen and (min-width: 535px){
+	input.principal__caixaFormulario__formulario__enviar{
+		margin-left: calc(calc(calc(100vw - 158.13px) / 2) - var(--padding-left-formulario));
+	}
+	
+}
